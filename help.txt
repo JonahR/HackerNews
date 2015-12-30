@@ -1,0 +1,8 @@
+Type 'create account' to create an account.
+Type 'list accounts' to list accounts.
+Type 'Post' to post
+Type 'list posts' to list all post
+Type 'list my posts' to list your posts
+Type 'exit' to exit
+Type 'delete' to delete on of you posts
+Type 'switch accounts' to switch accounts
