@@ -1,13 +1,14 @@
+
 require_relative 'HackerNewsClass'
 require_relative 'UserClass'
 
-print "Welcome to HackerNews. What whould you like to do today?(Type 'help' for help) \n"
+print "Welcome to HackerNews. What whould you like to do today?(Type 'h' for help) \n"
 $account_logged_in = false
 
 while true
 	option = gets.chomp.downcase
 	case option
-	when "help"
+	when "h"
 		help = File.read("help.txt")
 		puts help
 		puts ""
